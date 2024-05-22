@@ -15,6 +15,8 @@ const posts = (await getCollection("blog")).sort((a, b) => a.data.pubDate.valueO
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
       main {
+        margin: auto;
+        margin-top: 20px;
         width: 960px;
       }
       ul {

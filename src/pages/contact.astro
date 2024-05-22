@@ -1,10 +1,12 @@
 ---
 const TestName = "Hello World";
-import HeaderLink from "../components/HeaderLink.astro";
+import HeaderApp from "../components/Header.astro";
 ---
 
-  <head> </head><body>
-    <HeaderLink href="/about">About</HeaderLink>
-    <h1 class="text-2xl">{TestName}</h1>
-    <p class="text-2xl font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, et.</p>
-  </body>
+<head> </head><body>
+  <HeaderApp />
+  <div class="text-center mt-10">
+    <h1 class="text-3xl font-semibold">{TestName}</h1>
+    <p class="text-2xl font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, et.</p>
+  </div>
+</body>

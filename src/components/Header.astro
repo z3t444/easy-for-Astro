@@ -5,7 +5,7 @@ import { SITE_TITLE } from "../consts";
 
 <header>
   <nav>
-    <h2><a href="/">{SITE_TITLE}</a></h2>
+    <h2 class="font-bold dm-sans"><a class="text-2xl tracking-tighter" href="/">{SITE_TITLE}</a></h2>
     <div class="internal-links">
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
@@ -44,6 +44,16 @@ import { SITE_TITLE } from "../consts";
   </nav>
 </header>
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.archivo {
+  font-family: "Archivo", sans-serif;
+}
+
   header {
     margin: 0;
     padding: 0 1em;
